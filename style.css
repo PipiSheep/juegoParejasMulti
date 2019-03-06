@@ -1,0 +1,82 @@
+.fondo {
+    background-image: url("img/fondo.png");
+}
+
+.cabecera {
+    background: #4C6F9E;
+}
+
+.titulo{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.instrucciones {
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    height: 80px;
+    border: 1px solid grey;
+    background: #d0d1e6;
+    box-shadow: 5px 5px 20px grey;
+    
+}
+
+.cartas {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+#tablero {
+    margin: 20px auto;
+    width: 640px;
+    text-align: center;
+}
+
+#cartas {
+    margin: 10px 0 0 10px;
+}
+
+#cartas div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 85px;
+    margin: 8px;
+    border: 4px solid #4C6F9E;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    background: #d0d1e6;
+}
+
+#cartas div span {
+    display: none;
+    font-weight: bolder;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#panel {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 30px;
+    color: #4C6F9E;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+#panel .boton {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 30px;
+    color: #d0d1e6;
+    background: #4C6F9E;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#panel .boton:hover {
+    color: #4C6F9E;
+    background: #d0d1e6;
+    border: 2px solid #4C6F9E;
+}

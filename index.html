@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <head>
+        <title>juegoParejas</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">                        
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="memoria.js"></script>
+    </head>
+
+</head>
+
+<body class="fondo">
+
+    <div class="container-fluid cabecera">
+
+        <div class="row">
+
+            <div class="col-lg-4 m-4 titulo">
+                <h1>Juego de memoria</h1>
+            </div>
+
+            <div class="col-lg-6 m-3 instrucciones">
+                <p>¿Quieres aprender las tablas de multiplicar de forma divertida? Aquí tienes el
+                    juego perfecto. Podrás aprenderte las tablas del 2 al 9. Busca las parejas que
+                    correspondan, la multiplicación con su resultado. Buena suerte!</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid cartas">
+        
+        <div class="col-lg-offset-6 row">
+
+            <div id="tablero">
+                <div id="cartas"></div>
+                <div id="panel">
+                    <span id="texto_panel">Movimientos</span>
+                    <br><br>
+                    <span class="boton"><a onclick="EmpezarJuego();">Barajar</a></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
